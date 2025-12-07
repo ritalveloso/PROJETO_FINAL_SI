@@ -2,9 +2,27 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="registo.css">
     <title>Registo</title>
 </head>
 <body>
-<h1>REGISTO</h1>
+<div class="registo">
+    <h1>REGISTO</h1>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="e-mail">E-mail</label>
+        <input type="text" id="e-mail" name="e-mail" required>
+
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" required>
+
+        <label for="confirmação">Confirmar password</label>
+        <input type="text" id="confirmação" name="confirmação" required>
+
+        <button type="submit">Registar</button>
+    </form>
+</div>
 </body>
 </html>
