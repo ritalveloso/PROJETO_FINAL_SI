@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -12,16 +12,24 @@ body {
     height: 100vh;
 }
 
+.seta {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
 h1 {
+    position: relative;
+    top: 20px;
     font-family: "Poppins SemiBold", sans-serif;
     text-align: center;
-
+    font-size: 40px;
 }
 
 .registo {
     padding: 40px;
     border-radius: 8px;
-    width: 70vw;
+    width: 50vw;
 }
 
 form {
@@ -37,11 +45,10 @@ label {
 input {
     padding: 10px;
     margin-bottom: 15px;
-    border: none;
+    border: 2px #F8F7F4;
     border-radius: 4px;
     font-family: "Poppins Regular", sans-serif;
     font-size: 12px;
-
 }
 
 button {
